@@ -1,0 +1,35 @@
+{
+  "name": "twitchbot",
+  "version": "1.0.0",
+  "description": "twitch chatbot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincent-heng/twitchbot.git"
+  },
+  "keywords": [
+    "twitch",
+    "chatbot",
+    "bot"
+  ],
+  "author": "vincent-heng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vincent-heng/twitchbot/issues"
+  },
+  "homepage": "https://github.com/vincent-heng/twitchbot#readme",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "tmi.js": "^1.7.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
